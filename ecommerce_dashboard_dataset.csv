@@ -1,0 +1,501 @@
+Order_ID,Date,Product_Name,Category,Price,Quantity,Total_Sales,Customer_ID,Location,Order_Status,Profit,Customer_Segment,Marketing_Source,Stock_Level
+1001,23-03-2025,Phone,Electronics,500,1,500,C479,Los Angeles,Pending,60.93694252,Returning,Instagram,192
+1002,29-01-2025,Sneakers,Fashion,120,1,120,C446,Boston,Completed,14.62486621,Loyal,Email,191
+1003,17-03-2025,Tablet,Electronics,300,1,300,C115,Chicago,Pending,36.56216551,Returning,Direct,174
+1004,30-01-2025,Gaming Console,Electronics,400,5,2000,C113,Boston,Pending,243.7477701,New,Google,80
+1005,25-03-2025,Gaming Console,Electronics,400,4,1600,C212,Seattle,Shipped,194.9982161,VIP,Instagram,118
+1006,01-01-2025,Sneakers,Fashion,120,4,480,C274,Los Angeles,Pending,58.49946482,Loyal,Instagram,106
+1007,28-01-2025,Smartwatch,Electronics,250,1,250,C147,Houston,Completed,30.46847126,VIP,Facebook,99
+1008,15-02-2025,Smartwatch,Electronics,250,5,1250,C235,New York,Cancelled,152.3423563,New,Google,127
+1009,10-03-2025,Phone,Electronics,500,4,2000,C140,Boston,Shipped,243.7477701,New,Email,74
+1010,22-03-2025,Monitor,Electronics,200,3,600,C395,Dallas,Completed,73.12433103,New,Email,65
+1011,06-01-2025,Headphones,Accessories,80,3,240,C140,Dallas,Completed,29.24973241,Loyal,Direct,129
+1012,18-02-2025,Backpack,Fashion,45,4,180,C425,San Francisco,Pending,21.93729931,Returning,Direct,87
+1013,17-02-2025,Smartwatch,Electronics,250,2,500,C443,Los Angeles,Completed,60.93694252,Returning,Facebook,183
+1014,19-03-2025,Sneakers,Fashion,120,5,600,C473,Dallas,Pending,73.12433103,VIP,Google,143
+1015,01-03-2025,Tablet,Electronics,300,3,900,C573,Boston,Pending,109.6864965,Loyal,Email,169
+1016,29-03-2025,Smartwatch,Electronics,250,1,250,C217,New York,Shipped,30.46847126,VIP,Google,111
+1017,21-02-2025,Backpack,Fashion,45,1,45,C208,Atlanta,Shipped,5.484324827,VIP,Facebook,159
+1018,28-01-2025,Jacket,Fashion,90,4,360,C552,Seattle,Pending,43.87459862,Returning,Google,36
+1019,03-02-2025,Sneakers,Fashion,120,2,240,C481,Boston,Shipped,29.24973241,Loyal,Google,11
+1020,16-03-2025,Tablet,Electronics,300,5,1500,C304,San Francisco,Pending,182.8108276,New,Google,140
+1021,18-01-2025,Gaming Console,Electronics,400,4,1600,C146,New York,Completed,194.9982161,VIP,Facebook,179
+1022,20-01-2025,Sneakers,Fashion,120,4,480,C405,Chicago,Cancelled,58.49946482,New,Facebook,105
+1023,18-02-2025,Monitor,Electronics,200,4,800,C370,Los Angeles,Completed,97.49910804,Loyal,Facebook,153
+1024,29-03-2025,Phone,Electronics,500,5,2500,C484,Los Angeles,Shipped,304.6847126,VIP,Email,175
+1025,15-01-2025,Backpack,Fashion,45,4,180,C180,Seattle,Completed,21.93729931,New,Instagram,162
+1026,03-02-2025,Gaming Console,Electronics,400,2,800,C359,Chicago,Shipped,97.49910804,New,Google,165
+1027,23-03-2025,Gaming Console,Electronics,400,5,2000,C201,Miami,Shipped,243.7477701,Returning,Direct,82
+1028,21-01-2025,Gaming Console,Electronics,400,5,2000,C570,New York,Shipped,243.7477701,Loyal,Direct,86
+1029,04-03-2025,Laptop,Electronics,750,1,750,C575,San Francisco,Shipped,91.40541379,Loyal,Instagram,185
+1030,31-01-2025,Laptop,Electronics,750,2,1500,C549,Atlanta,Completed,182.8108276,Loyal,Google,37
+1031,11-01-2025,Jacket,Fashion,90,1,90,C489,Boston,Pending,10.96864965,VIP,Google,133
+1032,17-01-2025,Jacket,Fashion,90,5,450,C184,Los Angeles,Cancelled,54.84324827,Returning,Google,26
+1033,28-01-2025,Gaming Console,Electronics,400,2,800,C465,Los Angeles,Cancelled,97.49910804,VIP,Facebook,96
+1034,27-03-2025,Smartwatch,Electronics,250,4,1000,C560,Boston,Cancelled,121.873885,Loyal,Email,80
+1035,16-01-2025,Headphones,Accessories,80,2,160,C132,San Francisco,Completed,19.49982161,VIP,Facebook,173
+1036,17-03-2025,Gaming Console,Electronics,400,2,800,C401,Dallas,Completed,97.49910804,New,Google,93
+1037,10-01-2025,Laptop,Electronics,750,2,1500,C134,New York,Shipped,182.8108276,VIP,Instagram,80
+1038,10-01-2025,Gaming Console,Electronics,400,2,800,C242,Seattle,Pending,97.49910804,VIP,Google,76
+1039,11-03-2025,Sneakers,Fashion,120,5,600,C395,Seattle,Pending,73.12433103,Loyal,Google,177
+1040,02-03-2025,Tablet,Electronics,300,2,600,C148,Chicago,Cancelled,73.12433103,New,Email,192
+1041,15-02-2025,Tablet,Electronics,300,4,1200,C339,New York,Completed,146.2486621,Loyal,Google,176
+1042,08-01-2025,Tablet,Electronics,300,3,900,C509,Chicago,Pending,109.6864965,New,Facebook,86
+1043,25-01-2025,Headphones,Accessories,80,5,400,C329,Miami,Cancelled,48.74955402,New,Direct,58
+1044,24-01-2025,Backpack,Fashion,45,4,180,C227,Chicago,Cancelled,21.93729931,New,Email,48
+1045,12-03-2025,Phone,Electronics,500,1,500,C433,Boston,Completed,60.93694252,Loyal,Email,142
+1046,12-01-2025,Headphones,Accessories,80,2,160,C308,Seattle,Cancelled,19.49982161,New,Email,71
+1047,28-01-2025,Tablet,Electronics,300,1,300,C184,Houston,Completed,36.56216551,Returning,Google,24
+1048,19-02-2025,Backpack,Fashion,45,4,180,C246,Houston,Cancelled,21.93729931,Returning,Email,163
+1049,20-01-2025,Headphones,Accessories,80,3,240,C211,New York,Completed,29.24973241,Returning,Email,113
+1050,10-02-2025,Laptop,Electronics,750,1,750,C399,Seattle,Pending,91.40541379,Returning,Facebook,179
+1051,08-01-2025,Gaming Console,Electronics,400,1,400,C535,Miami,Completed,48.74955402,Loyal,Instagram,91
+1052,18-03-2025,Phone,Electronics,500,2,1000,C306,Chicago,Pending,121.873885,VIP,Facebook,184
+1053,16-03-2025,Monitor,Electronics,200,1,200,C417,Chicago,Cancelled,24.37477701,VIP,Facebook,45
+1054,26-03-2025,Monitor,Electronics,200,5,1000,C367,San Francisco,Shipped,121.873885,Returning,Instagram,194
+1055,27-01-2025,Smartwatch,Electronics,250,2,500,C235,Houston,Pending,60.93694252,VIP,Instagram,16
+1056,27-03-2025,Backpack,Fashion,45,4,180,C261,Chicago,Completed,21.93729931,Returning,Email,177
+1057,28-02-2025,Monitor,Electronics,200,5,1000,C151,Chicago,Pending,121.873885,Returning,Facebook,137
+1058,06-03-2025,Backpack,Fashion,45,2,90,C577,San Francisco,Completed,10.96864965,VIP,Google,85
+1059,01-02-2025,Smartwatch,Electronics,250,3,750,C180,Seattle,Shipped,91.40541379,VIP,Direct,76
+1060,20-03-2025,Gaming Console,Electronics,400,1,400,C441,Boston,Shipped,48.74955402,New,Direct,117
+1061,26-03-2025,Phone,Electronics,500,2,1000,C235,Chicago,Completed,121.873885,Returning,Direct,113
+1062,12-03-2025,Sneakers,Fashion,120,3,360,C244,Atlanta,Pending,43.87459862,VIP,Facebook,109
+1063,13-02-2025,Headphones,Accessories,80,3,240,C358,Seattle,Shipped,29.24973241,VIP,Instagram,198
+1064,07-01-2025,Phone,Electronics,500,4,2000,C524,Los Angeles,Completed,243.7477701,VIP,Email,19
+1065,01-01-2025,Smartwatch,Electronics,250,2,500,C426,Los Angeles,Pending,60.93694252,New,Email,159
+1066,26-02-2025,Gaming Console,Electronics,400,4,1600,C387,New York,Completed,194.9982161,Returning,Direct,191
+1067,10-01-2025,Sneakers,Fashion,120,5,600,C118,San Francisco,Pending,73.12433103,Returning,Email,156
+1068,25-02-2025,Sneakers,Fashion,120,1,120,C257,San Francisco,Completed,14.62486621,Loyal,Google,58
+1069,15-02-2025,Headphones,Accessories,80,2,160,C441,Chicago,Shipped,19.49982161,New,Google,97
+1070,13-03-2025,Tablet,Electronics,300,5,1500,C483,Miami,Pending,182.8108276,New,Instagram,195
+1071,21-01-2025,Sneakers,Fashion,120,4,480,C112,Miami,Shipped,58.49946482,Returning,Email,192
+1072,22-02-2025,Headphones,Accessories,80,3,240,C181,Chicago,Cancelled,29.24973241,Loyal,Facebook,66
+1073,05-01-2025,Jacket,Fashion,90,2,180,C202,Seattle,Shipped,21.93729931,Loyal,Email,185
+1074,09-02-2025,Headphones,Accessories,80,2,160,C112,Dallas,Cancelled,19.49982161,Returning,Facebook,146
+1075,12-02-2025,Backpack,Fashion,45,1,45,C595,Los Angeles,Shipped,5.484324827,VIP,Direct,173
+1076,24-03-2025,Gaming Console,Electronics,400,4,1600,C447,Boston,Shipped,194.9982161,New,Facebook,131
+1077,04-01-2025,Phone,Electronics,500,3,1500,C191,Atlanta,Shipped,182.8108276,Loyal,Direct,181
+1078,05-01-2025,Phone,Electronics,500,5,2500,C322,San Francisco,Shipped,304.6847126,VIP,Google,101
+1079,25-02-2025,Monitor,Electronics,200,5,1000,C159,Houston,Pending,121.873885,Loyal,Email,139
+1080,02-02-2025,Laptop,Electronics,750,4,3000,C100,Boston,Pending,365.6216551,VIP,Instagram,86
+1081,16-02-2025,Tablet,Electronics,300,1,300,C585,San Francisco,Shipped,36.56216551,VIP,Email,53
+1082,26-03-2025,Phone,Electronics,500,3,1500,C359,Los Angeles,Cancelled,182.8108276,New,Direct,178
+1083,11-02-2025,Tablet,Electronics,300,3,900,C383,Miami,Pending,109.6864965,Loyal,Email,152
+1084,23-02-2025,Tablet,Electronics,300,2,600,C415,Atlanta,Shipped,73.12433103,Loyal,Instagram,56
+1085,21-02-2025,Gaming Console,Electronics,400,1,400,C255,Los Angeles,Pending,48.74955402,VIP,Direct,85
+1086,25-02-2025,Monitor,Electronics,200,5,1000,C435,San Francisco,Cancelled,121.873885,Returning,Direct,34
+1087,26-02-2025,Jacket,Fashion,90,2,180,C361,Seattle,Pending,21.93729931,Loyal,Instagram,130
+1088,26-03-2025,Phone,Electronics,500,3,1500,C363,Atlanta,Shipped,182.8108276,New,Email,42
+1089,12-01-2025,Headphones,Accessories,80,3,240,C215,Dallas,Pending,29.24973241,Returning,Instagram,199
+1090,04-01-2025,Laptop,Electronics,750,2,1500,C343,Atlanta,Completed,182.8108276,Loyal,Facebook,76
+1091,28-02-2025,Tablet,Electronics,300,5,1500,C199,Houston,Cancelled,182.8108276,New,Google,195
+1092,21-02-2025,Headphones,Accessories,80,2,160,C435,New York,Completed,19.49982161,Returning,Instagram,153
+1093,24-02-2025,Headphones,Accessories,80,2,160,C511,Boston,Cancelled,19.49982161,Loyal,Direct,56
+1094,07-01-2025,Gaming Console,Electronics,400,2,800,C569,Chicago,Cancelled,97.49910804,New,Facebook,184
+1095,18-01-2025,Jacket,Fashion,90,5,450,C386,Atlanta,Shipped,54.84324827,Returning,Google,95
+1096,26-02-2025,Monitor,Electronics,200,5,1000,C318,Boston,Cancelled,121.873885,Loyal,Instagram,177
+1097,21-01-2025,Jacket,Fashion,90,4,360,C232,Dallas,Shipped,43.87459862,Returning,Google,32
+1098,08-03-2025,Jacket,Fashion,90,2,180,C240,Seattle,Completed,21.93729931,VIP,Email,66
+1099,06-02-2025,Headphones,Accessories,80,3,240,C271,San Francisco,Completed,29.24973241,VIP,Direct,100
+1100,18-01-2025,Sneakers,Fashion,120,2,240,C296,Miami,Pending,29.24973241,Returning,Instagram,67
+1101,09-01-2025,Tablet,Electronics,300,4,1200,C269,Boston,Cancelled,146.2486621,VIP,Direct,200
+1102,23-02-2025,Laptop,Electronics,750,2,1500,C526,Houston,Cancelled,182.8108276,VIP,Facebook,88
+1103,16-03-2025,Laptop,Electronics,750,5,3750,C294,Seattle,Completed,457.0270689,Returning,Facebook,117
+1104,15-02-2025,Backpack,Fashion,45,4,180,C536,Houston,Pending,21.93729931,VIP,Google,94
+1105,04-03-2025,Headphones,Accessories,80,3,240,C323,Seattle,Completed,29.24973241,Returning,Facebook,105
+1106,19-02-2025,Smartwatch,Electronics,250,4,1000,C470,Miami,Cancelled,121.873885,Returning,Facebook,76
+1107,17-01-2025,Monitor,Electronics,200,5,1000,C113,Houston,Completed,121.873885,VIP,Instagram,159
+1108,11-01-2025,Tablet,Electronics,300,2,600,C543,Seattle,Pending,73.12433103,Loyal,Direct,85
+1109,07-01-2025,Backpack,Fashion,45,4,180,C267,Dallas,Cancelled,21.93729931,Returning,Google,128
+1110,11-02-2025,Smartwatch,Electronics,250,4,1000,C242,Houston,Shipped,121.873885,Returning,Facebook,40
+1111,11-01-2025,Jacket,Fashion,90,1,90,C483,Boston,Completed,10.96864965,Loyal,Direct,130
+1112,14-02-2025,Headphones,Accessories,80,1,80,C499,New York,Completed,9.749910804,VIP,Email,23
+1113,01-02-2025,Headphones,Accessories,80,1,80,C418,Miami,Pending,9.749910804,New,Instagram,172
+1114,17-01-2025,Jacket,Fashion,90,1,90,C388,Dallas,Cancelled,10.96864965,Loyal,Facebook,159
+1115,31-03-2025,Backpack,Fashion,45,3,135,C185,Atlanta,Completed,16.45297448,New,Facebook,158
+1116,21-01-2025,Backpack,Fashion,45,1,45,C396,New York,Shipped,5.484324827,VIP,Facebook,168
+1117,15-03-2025,Tablet,Electronics,300,4,1200,C582,Dallas,Completed,146.2486621,Returning,Direct,28
+1118,17-03-2025,Headphones,Accessories,80,1,80,C456,Los Angeles,Completed,9.749910804,Returning,Instagram,130
+1119,14-03-2025,Laptop,Electronics,750,3,2250,C372,Houston,Shipped,274.2162414,VIP,Instagram,59
+1120,09-01-2025,Gaming Console,Electronics,400,3,1200,C106,Houston,Cancelled,146.2486621,VIP,Direct,138
+1121,14-01-2025,Tablet,Electronics,300,3,900,C425,Seattle,Pending,109.6864965,VIP,Google,40
+1122,25-02-2025,Sneakers,Fashion,120,5,600,C594,Los Angeles,Cancelled,73.12433103,VIP,Instagram,184
+1123,01-03-2025,Tablet,Electronics,300,5,1500,C237,San Francisco,Pending,182.8108276,VIP,Direct,107
+1124,12-01-2025,Backpack,Fashion,45,4,180,C224,Seattle,Cancelled,21.93729931,VIP,Direct,145
+1125,13-02-2025,Laptop,Electronics,750,4,3000,C535,San Francisco,Pending,365.6216551,VIP,Facebook,86
+1126,04-03-2025,Headphones,Accessories,80,3,240,C508,Los Angeles,Shipped,29.24973241,Returning,Direct,115
+1127,05-02-2025,Monitor,Electronics,200,3,600,C384,New York,Pending,73.12433103,New,Facebook,23
+1128,11-01-2025,Headphones,Accessories,80,4,320,C350,Boston,Pending,38.99964322,New,Email,48
+1129,30-03-2025,Jacket,Fashion,90,4,360,C329,New York,Completed,43.87459862,Returning,Direct,45
+1130,07-02-2025,Headphones,Accessories,80,4,320,C454,Dallas,Shipped,38.99964322,Loyal,Instagram,61
+1131,26-03-2025,Monitor,Electronics,200,3,600,C342,Boston,Shipped,73.12433103,New,Facebook,97
+1132,24-02-2025,Gaming Console,Electronics,400,3,1200,C280,Seattle,Shipped,146.2486621,Loyal,Email,114
+1133,09-02-2025,Backpack,Fashion,45,2,90,C161,Dallas,Shipped,10.96864965,Returning,Google,155
+1134,16-01-2025,Gaming Console,Electronics,400,2,800,C198,Dallas,Cancelled,97.49910804,Loyal,Google,127
+1135,05-02-2025,Monitor,Electronics,200,5,1000,C405,Los Angeles,Completed,121.873885,Returning,Google,46
+1136,25-01-2025,Backpack,Fashion,45,2,90,C284,Miami,Shipped,10.96864965,VIP,Facebook,90
+1137,02-01-2025,Gaming Console,Electronics,400,2,800,C240,New York,Completed,97.49910804,VIP,Direct,193
+1138,12-03-2025,Backpack,Fashion,45,2,90,C426,Seattle,Completed,10.96864965,New,Facebook,56
+1139,02-01-2025,Monitor,Electronics,200,3,600,C340,Seattle,Cancelled,73.12433103,New,Google,30
+1140,13-02-2025,Sneakers,Fashion,120,1,120,C229,Seattle,Completed,14.62486621,Loyal,Direct,134
+1141,09-01-2025,Tablet,Electronics,300,4,1200,C137,Atlanta,Completed,146.2486621,Loyal,Email,95
+1142,20-01-2025,Sneakers,Fashion,120,5,600,C585,Los Angeles,Completed,73.12433103,New,Google,171
+1143,01-02-2025,Phone,Electronics,500,5,2500,C491,Houston,Pending,304.6847126,VIP,Instagram,55
+1144,08-03-2025,Tablet,Electronics,300,4,1200,C565,Seattle,Shipped,146.2486621,Returning,Direct,90
+1145,17-03-2025,Tablet,Electronics,300,3,900,C391,Atlanta,Completed,109.6864965,VIP,Facebook,172
+1146,20-03-2025,Phone,Electronics,500,2,1000,C420,Dallas,Shipped,121.873885,New,Facebook,24
+1147,26-03-2025,Phone,Electronics,500,2,1000,C222,Miami,Completed,121.873885,Returning,Instagram,11
+1148,21-01-2025,Laptop,Electronics,750,4,3000,C330,Atlanta,Cancelled,365.6216551,Loyal,Facebook,125
+1149,07-02-2025,Laptop,Electronics,750,2,1500,C247,Los Angeles,Cancelled,182.8108276,New,Instagram,80
+1150,10-01-2025,Headphones,Accessories,80,3,240,C503,Atlanta,Pending,29.24973241,VIP,Google,63
+1151,24-02-2025,Phone,Electronics,500,5,2500,C215,Miami,Shipped,304.6847126,Loyal,Google,53
+1152,19-01-2025,Phone,Electronics,500,1,500,C184,Los Angeles,Shipped,60.93694252,Loyal,Facebook,157
+1153,26-02-2025,Phone,Electronics,500,4,2000,C452,Los Angeles,Cancelled,243.7477701,New,Direct,50
+1154,04-02-2025,Gaming Console,Electronics,400,5,2000,C352,Seattle,Completed,243.7477701,VIP,Facebook,135
+1155,18-03-2025,Laptop,Electronics,750,4,3000,C476,San Francisco,Shipped,365.6216551,New,Google,32
+1156,04-01-2025,Phone,Electronics,500,2,1000,C592,Atlanta,Completed,121.873885,Returning,Direct,43
+1157,28-03-2025,Backpack,Fashion,45,5,225,C120,Miami,Cancelled,27.42162414,Returning,Instagram,167
+1158,08-03-2025,Jacket,Fashion,90,3,270,C192,Atlanta,Cancelled,32.90594896,Loyal,Google,121
+1159,23-03-2025,Jacket,Fashion,90,1,90,C340,San Francisco,Cancelled,10.96864965,VIP,Instagram,172
+1160,12-02-2025,Smartwatch,Electronics,250,1,250,C539,Miami,Shipped,30.46847126,Returning,Email,119
+1161,22-02-2025,Jacket,Fashion,90,3,270,C439,Houston,Completed,32.90594896,Returning,Direct,113
+1162,28-02-2025,Phone,Electronics,500,3,1500,C229,San Francisco,Completed,182.8108276,Returning,Google,119
+1163,21-02-2025,Gaming Console,Electronics,400,1,400,C436,Boston,Cancelled,48.74955402,Returning,Instagram,132
+1164,22-02-2025,Laptop,Electronics,750,2,1500,C365,San Francisco,Cancelled,182.8108276,New,Instagram,108
+1165,22-03-2025,Jacket,Fashion,90,1,90,C204,Los Angeles,Pending,10.96864965,Loyal,Instagram,11
+1166,06-02-2025,Jacket,Fashion,90,4,360,C162,New York,Pending,43.87459862,Loyal,Facebook,19
+1167,01-04-2025,Sneakers,Fashion,120,3,360,C382,New York,Cancelled,43.87459862,Returning,Facebook,146
+1168,12-01-2025,Headphones,Accessories,80,1,80,C336,Chicago,Pending,9.749910804,Loyal,Email,61
+1169,05-03-2025,Backpack,Fashion,45,5,225,C461,Los Angeles,Cancelled,27.42162414,Loyal,Email,197
+1170,03-03-2025,Jacket,Fashion,90,2,180,C333,Boston,Pending,21.93729931,Loyal,Instagram,105
+1171,19-02-2025,Headphones,Accessories,80,5,400,C360,Miami,Completed,48.74955402,Loyal,Facebook,13
+1172,05-02-2025,Tablet,Electronics,300,3,900,C578,Boston,Shipped,109.6864965,New,Direct,92
+1173,01-01-2025,Backpack,Fashion,45,3,135,C528,Atlanta,Cancelled,16.45297448,Returning,Direct,145
+1174,20-01-2025,Jacket,Fashion,90,5,450,C347,San Francisco,Shipped,54.84324827,VIP,Instagram,58
+1175,12-03-2025,Gaming Console,Electronics,400,4,1600,C333,San Francisco,Pending,194.9982161,New,Facebook,14
+1176,31-03-2025,Headphones,Accessories,80,5,400,C296,Dallas,Cancelled,48.74955402,Loyal,Direct,183
+1177,06-01-2025,Smartwatch,Electronics,250,4,1000,C461,Houston,Cancelled,121.873885,Returning,Facebook,11
+1178,26-03-2025,Sneakers,Fashion,120,4,480,C593,New York,Pending,58.49946482,Returning,Email,170
+1179,06-03-2025,Monitor,Electronics,200,3,600,C545,Chicago,Cancelled,73.12433103,Returning,Instagram,197
+1180,13-01-2025,Gaming Console,Electronics,400,4,1600,C107,Miami,Cancelled,194.9982161,Returning,Instagram,73
+1181,25-03-2025,Sneakers,Fashion,120,1,120,C340,Los Angeles,Shipped,14.62486621,Loyal,Facebook,67
+1182,21-03-2025,Tablet,Electronics,300,1,300,C536,San Francisco,Cancelled,36.56216551,Returning,Facebook,187
+1183,10-02-2025,Jacket,Fashion,90,5,450,C118,Atlanta,Completed,54.84324827,VIP,Google,98
+1184,31-01-2025,Backpack,Fashion,45,2,90,C482,Chicago,Cancelled,10.96864965,VIP,Direct,89
+1185,13-01-2025,Phone,Electronics,500,4,2000,C185,Los Angeles,Completed,243.7477701,Returning,Email,43
+1186,06-01-2025,Smartwatch,Electronics,250,1,250,C250,San Francisco,Shipped,30.46847126,Loyal,Direct,36
+1187,25-02-2025,Sneakers,Fashion,120,2,240,C371,Houston,Pending,29.24973241,VIP,Google,108
+1188,22-01-2025,Sneakers,Fashion,120,1,120,C412,Houston,Pending,14.62486621,VIP,Facebook,138
+1189,05-03-2025,Monitor,Electronics,200,2,400,C218,Seattle,Shipped,48.74955402,VIP,Direct,160
+1190,28-02-2025,Backpack,Fashion,45,1,45,C560,Seattle,Shipped,5.484324827,New,Instagram,88
+1191,28-03-2025,Gaming Console,Electronics,400,2,800,C137,Seattle,Shipped,97.49910804,New,Direct,52
+1192,17-03-2025,Backpack,Fashion,45,4,180,C453,Los Angeles,Cancelled,21.93729931,VIP,Facebook,26
+1193,08-02-2025,Headphones,Accessories,80,4,320,C536,Seattle,Completed,38.99964322,Loyal,Direct,21
+1194,31-01-2025,Tablet,Electronics,300,5,1500,C283,Atlanta,Shipped,182.8108276,Loyal,Google,86
+1195,31-03-2025,Backpack,Fashion,45,1,45,C524,Houston,Shipped,5.484324827,VIP,Email,84
+1196,02-01-2025,Monitor,Electronics,200,1,200,C566,Atlanta,Cancelled,24.37477701,VIP,Facebook,126
+1197,06-02-2025,Headphones,Accessories,80,5,400,C510,San Francisco,Pending,48.74955402,Loyal,Instagram,196
+1198,23-03-2025,Headphones,Accessories,80,5,400,C228,Miami,Completed,48.74955402,New,Google,143
+1199,22-03-2025,Laptop,Electronics,750,3,2250,C503,Seattle,Completed,274.2162414,New,Facebook,162
+1200,16-03-2025,Smartwatch,Electronics,250,2,500,C146,Los Angeles,Shipped,60.93694252,VIP,Instagram,144
+1201,23-02-2025,Sneakers,Fashion,120,2,240,C167,Boston,Shipped,29.24973241,Loyal,Instagram,96
+1202,09-03-2025,Gaming Console,Electronics,400,3,1200,C525,Miami,Shipped,146.2486621,New,Facebook,121
+1203,03-03-2025,Backpack,Fashion,45,3,135,C511,Chicago,Cancelled,16.45297448,VIP,Google,185
+1204,10-01-2025,Sneakers,Fashion,120,2,240,C540,Houston,Shipped,29.24973241,Returning,Instagram,44
+1205,12-01-2025,Tablet,Electronics,300,1,300,C235,Boston,Completed,36.56216551,VIP,Email,97
+1206,28-02-2025,Smartwatch,Electronics,250,3,750,C399,Houston,Shipped,91.40541379,Returning,Google,135
+1207,14-01-2025,Headphones,Accessories,80,4,320,C112,Atlanta,Shipped,38.99964322,VIP,Instagram,101
+1208,20-03-2025,Headphones,Accessories,80,1,80,C425,Seattle,Shipped,9.749910804,Loyal,Facebook,58
+1209,25-03-2025,Tablet,Electronics,300,1,300,C171,New York,Completed,36.56216551,Loyal,Facebook,52
+1210,08-02-2025,Jacket,Fashion,90,1,90,C149,Dallas,Pending,10.96864965,Loyal,Google,113
+1211,19-02-2025,Jacket,Fashion,90,3,270,C443,Boston,Cancelled,32.90594896,Loyal,Instagram,14
+1212,17-03-2025,Sneakers,Fashion,120,4,480,C435,Chicago,Cancelled,58.49946482,Returning,Instagram,68
+1213,20-03-2025,Tablet,Electronics,300,3,900,C116,San Francisco,Pending,109.6864965,VIP,Google,67
+1214,26-02-2025,Jacket,Fashion,90,2,180,C537,San Francisco,Completed,21.93729931,Loyal,Google,196
+1215,29-03-2025,Smartwatch,Electronics,250,5,1250,C561,San Francisco,Completed,152.3423563,New,Google,43
+1216,20-02-2025,Backpack,Fashion,45,2,90,C595,Chicago,Cancelled,10.96864965,New,Email,64
+1217,12-01-2025,Headphones,Accessories,80,5,400,C597,New York,Completed,48.74955402,New,Email,197
+1218,12-02-2025,Headphones,Accessories,80,2,160,C502,Atlanta,Pending,19.49982161,VIP,Email,15
+1219,09-01-2025,Gaming Console,Electronics,400,2,800,C400,Dallas,Pending,97.49910804,New,Facebook,160
+1220,12-02-2025,Sneakers,Fashion,120,5,600,C101,Los Angeles,Pending,73.12433103,New,Email,139
+1221,17-01-2025,Gaming Console,Electronics,400,3,1200,C508,Miami,Completed,146.2486621,Returning,Email,53
+1222,26-03-2025,Laptop,Electronics,750,2,1500,C107,San Francisco,Pending,182.8108276,VIP,Email,41
+1223,17-03-2025,Smartwatch,Electronics,250,1,250,C189,Los Angeles,Completed,30.46847126,VIP,Instagram,103
+1224,17-01-2025,Tablet,Electronics,300,5,1500,C158,Chicago,Cancelled,182.8108276,New,Direct,192
+1225,27-02-2025,Smartwatch,Electronics,250,5,1250,C403,Chicago,Cancelled,152.3423563,VIP,Email,176
+1226,06-03-2025,Headphones,Accessories,80,5,400,C122,Boston,Shipped,48.74955402,Returning,Google,19
+1227,28-02-2025,Laptop,Electronics,750,1,750,C345,Houston,Cancelled,91.40541379,Returning,Email,106
+1228,29-03-2025,Phone,Electronics,500,4,2000,C464,Seattle,Completed,243.7477701,Loyal,Direct,173
+1229,11-01-2025,Smartwatch,Electronics,250,5,1250,C175,Chicago,Pending,152.3423563,Returning,Facebook,75
+1230,05-02-2025,Monitor,Electronics,200,5,1000,C380,San Francisco,Cancelled,121.873885,Loyal,Facebook,146
+1231,18-03-2025,Gaming Console,Electronics,400,3,1200,C332,Boston,Cancelled,146.2486621,New,Email,169
+1232,13-01-2025,Phone,Electronics,500,5,2500,C469,Dallas,Cancelled,304.6847126,Loyal,Google,22
+1233,27-02-2025,Headphones,Accessories,80,4,320,C273,Seattle,Cancelled,38.99964322,Loyal,Google,162
+1234,23-02-2025,Phone,Electronics,500,3,1500,C318,San Francisco,Shipped,182.8108276,New,Instagram,22
+1235,17-02-2025,Sneakers,Fashion,120,4,480,C134,Chicago,Completed,58.49946482,Loyal,Google,179
+1236,12-01-2025,Tablet,Electronics,300,1,300,C481,San Francisco,Pending,36.56216551,Returning,Instagram,37
+1237,13-03-2025,Laptop,Electronics,750,5,3750,C589,Boston,Shipped,457.0270689,New,Instagram,177
+1238,27-03-2025,Phone,Electronics,500,4,2000,C281,Houston,Completed,243.7477701,VIP,Google,15
+1239,06-02-2025,Monitor,Electronics,200,3,600,C280,Chicago,Pending,73.12433103,Loyal,Google,22
+1240,20-01-2025,Jacket,Fashion,90,2,180,C533,Chicago,Shipped,21.93729931,Returning,Instagram,186
+1241,13-03-2025,Smartwatch,Electronics,250,1,250,C490,Los Angeles,Pending,30.46847126,VIP,Facebook,39
+1242,24-02-2025,Gaming Console,Electronics,400,5,2000,C414,Boston,Completed,243.7477701,New,Email,116
+1243,19-03-2025,Backpack,Fashion,45,1,45,C192,Los Angeles,Shipped,5.484324827,New,Facebook,123
+1244,13-02-2025,Smartwatch,Electronics,250,1,250,C192,Miami,Cancelled,30.46847126,New,Google,107
+1245,09-01-2025,Sneakers,Fashion,120,1,120,C146,Boston,Pending,14.62486621,Returning,Direct,41
+1246,18-02-2025,Tablet,Electronics,300,4,1200,C274,Miami,Shipped,146.2486621,VIP,Google,150
+1247,09-02-2025,Smartwatch,Electronics,250,5,1250,C405,Chicago,Completed,152.3423563,New,Instagram,74
+1248,20-01-2025,Sneakers,Fashion,120,5,600,C125,Chicago,Shipped,73.12433103,Returning,Direct,131
+1249,26-02-2025,Tablet,Electronics,300,4,1200,C410,Seattle,Cancelled,146.2486621,Returning,Direct,189
+1250,04-02-2025,Headphones,Accessories,80,5,400,C158,San Francisco,Cancelled,48.74955402,VIP,Email,49
+1251,15-01-2025,Backpack,Fashion,45,5,225,C349,Boston,Shipped,27.42162414,New,Google,62
+1252,06-01-2025,Headphones,Accessories,80,4,320,C406,New York,Completed,38.99964322,New,Email,187
+1253,27-01-2025,Backpack,Fashion,45,2,90,C492,Miami,Shipped,10.96864965,Loyal,Facebook,185
+1254,07-02-2025,Smartwatch,Electronics,250,1,250,C103,Seattle,Cancelled,30.46847126,New,Direct,171
+1255,23-01-2025,Sneakers,Fashion,120,4,480,C372,Dallas,Shipped,58.49946482,VIP,Email,12
+1256,10-01-2025,Tablet,Electronics,300,1,300,C323,New York,Cancelled,36.56216551,Returning,Facebook,87
+1257,10-01-2025,Smartwatch,Electronics,250,5,1250,C319,Atlanta,Cancelled,152.3423563,VIP,Google,117
+1258,01-04-2025,Tablet,Electronics,300,3,900,C158,Houston,Completed,109.6864965,New,Google,179
+1259,11-02-2025,Sneakers,Fashion,120,5,600,C335,San Francisco,Completed,73.12433103,Returning,Instagram,35
+1260,25-02-2025,Phone,Electronics,500,2,1000,C323,Atlanta,Cancelled,121.873885,VIP,Facebook,179
+1261,09-03-2025,Phone,Electronics,500,4,2000,C545,Los Angeles,Shipped,243.7477701,New,Facebook,143
+1262,29-01-2025,Smartwatch,Electronics,250,2,500,C139,Boston,Completed,60.93694252,New,Email,79
+1263,09-03-2025,Gaming Console,Electronics,400,2,800,C563,San Francisco,Shipped,97.49910804,New,Direct,169
+1264,24-03-2025,Sneakers,Fashion,120,2,240,C152,Miami,Shipped,29.24973241,Loyal,Direct,165
+1265,26-01-2025,Sneakers,Fashion,120,5,600,C178,Chicago,Pending,73.12433103,Loyal,Instagram,189
+1266,22-03-2025,Jacket,Fashion,90,4,360,C486,Atlanta,Cancelled,43.87459862,Loyal,Instagram,45
+1267,29-03-2025,Monitor,Electronics,200,5,1000,C265,San Francisco,Pending,121.873885,Returning,Instagram,117
+1268,26-02-2025,Phone,Electronics,500,4,2000,C326,Los Angeles,Shipped,243.7477701,VIP,Facebook,36
+1269,17-03-2025,Laptop,Electronics,750,3,2250,C359,Chicago,Shipped,274.2162414,Returning,Google,140
+1270,01-03-2025,Jacket,Fashion,90,1,90,C129,San Francisco,Shipped,10.96864965,Returning,Google,194
+1271,10-01-2025,Phone,Electronics,500,5,2500,C404,Boston,Cancelled,304.6847126,New,Email,168
+1272,01-03-2025,Monitor,Electronics,200,5,1000,C588,New York,Cancelled,121.873885,New,Direct,40
+1273,15-03-2025,Headphones,Accessories,80,3,240,C409,Seattle,Pending,29.24973241,Returning,Direct,82
+1274,08-01-2025,Jacket,Fashion,90,1,90,C515,San Francisco,Completed,10.96864965,VIP,Email,39
+1275,06-03-2025,Sneakers,Fashion,120,1,120,C226,Seattle,Cancelled,14.62486621,Loyal,Facebook,37
+1276,09-03-2025,Gaming Console,Electronics,400,5,2000,C181,San Francisco,Shipped,243.7477701,Returning,Google,137
+1277,06-02-2025,Tablet,Electronics,300,4,1200,C496,San Francisco,Completed,146.2486621,Returning,Instagram,60
+1278,22-03-2025,Smartwatch,Electronics,250,1,250,C268,Chicago,Cancelled,30.46847126,VIP,Google,165
+1279,06-02-2025,Backpack,Fashion,45,5,225,C547,Miami,Shipped,27.42162414,VIP,Email,61
+1280,11-01-2025,Monitor,Electronics,200,2,400,C569,San Francisco,Shipped,48.74955402,Returning,Google,77
+1281,25-03-2025,Tablet,Electronics,300,2,600,C404,Chicago,Shipped,73.12433103,New,Instagram,143
+1282,13-03-2025,Tablet,Electronics,300,3,900,C516,Miami,Completed,109.6864965,New,Direct,61
+1283,24-03-2025,Tablet,Electronics,300,5,1500,C285,New York,Shipped,182.8108276,Returning,Email,101
+1284,09-02-2025,Sneakers,Fashion,120,2,240,C274,Seattle,Pending,29.24973241,New,Facebook,190
+1285,29-01-2025,Sneakers,Fashion,120,2,240,C139,Los Angeles,Completed,29.24973241,VIP,Google,114
+1286,06-03-2025,Gaming Console,Electronics,400,5,2000,C119,San Francisco,Pending,243.7477701,Loyal,Google,85
+1287,18-03-2025,Tablet,Electronics,300,2,600,C183,Miami,Pending,73.12433103,VIP,Facebook,51
+1288,26-02-2025,Laptop,Electronics,750,4,3000,C286,Dallas,Cancelled,365.6216551,Loyal,Facebook,20
+1289,20-03-2025,Backpack,Fashion,45,4,180,C219,Boston,Pending,21.93729931,Returning,Instagram,150
+1290,09-02-2025,Jacket,Fashion,90,2,180,C288,Atlanta,Cancelled,21.93729931,Returning,Google,137
+1291,01-03-2025,Backpack,Fashion,45,4,180,C357,Boston,Cancelled,21.93729931,Loyal,Email,63
+1292,21-01-2025,Headphones,Accessories,80,5,400,C170,Los Angeles,Completed,48.74955402,New,Google,186
+1293,24-03-2025,Jacket,Fashion,90,3,270,C383,Chicago,Completed,32.90594896,Returning,Instagram,133
+1294,06-02-2025,Phone,Electronics,500,2,1000,C239,Seattle,Pending,121.873885,Loyal,Email,94
+1295,25-02-2025,Phone,Electronics,500,2,1000,C518,Seattle,Shipped,121.873885,New,Email,70
+1296,04-01-2025,Tablet,Electronics,300,1,300,C302,Boston,Shipped,36.56216551,Loyal,Email,10
+1297,31-01-2025,Tablet,Electronics,300,1,300,C291,Dallas,Completed,36.56216551,Returning,Instagram,13
+1298,10-02-2025,Phone,Electronics,500,3,1500,C505,Miami,Pending,182.8108276,Returning,Google,181
+1299,05-01-2025,Backpack,Fashion,45,4,180,C456,Miami,Cancelled,21.93729931,VIP,Direct,32
+1300,27-02-2025,Monitor,Electronics,200,1,200,C563,Chicago,Completed,24.37477701,Loyal,Email,38
+1301,02-02-2025,Headphones,Accessories,80,2,160,C380,Atlanta,Cancelled,19.49982161,New,Facebook,156
+1302,15-01-2025,Backpack,Fashion,45,2,90,C254,Chicago,Completed,10.96864965,Returning,Instagram,181
+1303,31-01-2025,Tablet,Electronics,300,5,1500,C334,Chicago,Completed,182.8108276,VIP,Email,136
+1304,05-03-2025,Monitor,Electronics,200,5,1000,C108,Boston,Pending,121.873885,VIP,Instagram,48
+1305,19-01-2025,Backpack,Fashion,45,4,180,C100,Atlanta,Shipped,21.93729931,New,Facebook,33
+1306,31-01-2025,Monitor,Electronics,200,4,800,C195,Chicago,Shipped,97.49910804,Returning,Email,140
+1307,09-01-2025,Gaming Console,Electronics,400,5,2000,C359,Boston,Completed,243.7477701,VIP,Google,29
+1308,19-02-2025,Jacket,Fashion,90,1,90,C425,Houston,Shipped,10.96864965,New,Instagram,195
+1309,02-02-2025,Laptop,Electronics,750,3,2250,C503,Chicago,Shipped,274.2162414,New,Email,195
+1310,31-01-2025,Phone,Electronics,500,5,2500,C476,San Francisco,Pending,304.6847126,Loyal,Email,35
+1311,06-01-2025,Smartwatch,Electronics,250,5,1250,C273,Miami,Cancelled,152.3423563,Loyal,Instagram,75
+1312,31-03-2025,Jacket,Fashion,90,2,180,C515,Miami,Completed,21.93729931,Returning,Facebook,174
+1313,28-02-2025,Laptop,Electronics,750,3,2250,C203,New York,Pending,274.2162414,VIP,Instagram,69
+1314,06-01-2025,Smartwatch,Electronics,250,3,750,C363,Houston,Cancelled,91.40541379,VIP,Direct,126
+1315,02-02-2025,Laptop,Electronics,750,2,1500,C246,San Francisco,Completed,182.8108276,Loyal,Google,85
+1316,25-03-2025,Smartwatch,Electronics,250,3,750,C163,San Francisco,Cancelled,91.40541379,Returning,Facebook,77
+1317,21-02-2025,Jacket,Fashion,90,4,360,C273,Miami,Cancelled,43.87459862,VIP,Google,128
+1318,30-03-2025,Jacket,Fashion,90,3,270,C573,Boston,Shipped,32.90594896,New,Google,22
+1319,11-01-2025,Tablet,Electronics,300,1,300,C320,Atlanta,Pending,36.56216551,New,Instagram,35
+1320,11-03-2025,Backpack,Fashion,45,3,135,C152,Chicago,Shipped,16.45297448,New,Direct,54
+1321,26-03-2025,Backpack,Fashion,45,3,135,C328,Atlanta,Cancelled,16.45297448,New,Email,20
+1322,22-01-2025,Jacket,Fashion,90,3,270,C328,New York,Shipped,32.90594896,Loyal,Direct,84
+1323,20-03-2025,Tablet,Electronics,300,3,900,C427,New York,Completed,109.6864965,Returning,Facebook,102
+1324,27-03-2025,Tablet,Electronics,300,3,900,C362,Miami,Completed,109.6864965,New,Direct,183
+1325,19-01-2025,Monitor,Electronics,200,4,800,C117,Miami,Completed,97.49910804,New,Google,90
+1326,31-01-2025,Smartwatch,Electronics,250,3,750,C296,Atlanta,Completed,91.40541379,VIP,Email,119
+1327,19-03-2025,Sneakers,Fashion,120,4,480,C585,San Francisco,Shipped,58.49946482,Loyal,Direct,199
+1328,26-02-2025,Phone,Electronics,500,5,2500,C170,Boston,Shipped,304.6847126,VIP,Email,39
+1329,20-02-2025,Smartwatch,Electronics,250,3,750,C227,Chicago,Completed,91.40541379,VIP,Direct,34
+1330,24-01-2025,Jacket,Fashion,90,5,450,C298,Boston,Completed,54.84324827,VIP,Email,21
+1331,03-02-2025,Backpack,Fashion,45,4,180,C209,Atlanta,Shipped,21.93729931,New,Direct,12
+1332,30-03-2025,Jacket,Fashion,90,2,180,C162,Miami,Completed,21.93729931,Returning,Facebook,45
+1333,27-02-2025,Sneakers,Fashion,120,4,480,C144,San Francisco,Shipped,58.49946482,Loyal,Email,179
+1334,01-04-2025,Phone,Electronics,500,5,2500,C377,Los Angeles,Shipped,304.6847126,New,Instagram,175
+1335,21-01-2025,Sneakers,Fashion,120,3,360,C360,Dallas,Completed,43.87459862,Loyal,Google,53
+1336,26-01-2025,Sneakers,Fashion,120,2,240,C504,Seattle,Completed,29.24973241,New,Email,94
+1337,16-02-2025,Gaming Console,Electronics,400,5,2000,C288,Seattle,Pending,243.7477701,Returning,Google,101
+1338,20-03-2025,Phone,Electronics,500,1,500,C258,Houston,Cancelled,60.93694252,Returning,Direct,122
+1339,09-03-2025,Tablet,Electronics,300,4,1200,C521,Atlanta,Completed,146.2486621,Loyal,Direct,169
+1340,17-01-2025,Smartwatch,Electronics,250,1,250,C330,Seattle,Shipped,30.46847126,VIP,Direct,78
+1341,17-01-2025,Gaming Console,Electronics,400,5,2000,C193,Miami,Cancelled,243.7477701,New,Direct,197
+1342,06-03-2025,Laptop,Electronics,750,1,750,C365,Miami,Shipped,91.40541379,Loyal,Direct,33
+1343,22-01-2025,Sneakers,Fashion,120,3,360,C578,Dallas,Shipped,43.87459862,VIP,Facebook,105
+1344,08-03-2025,Backpack,Fashion,45,1,45,C228,Dallas,Shipped,5.484324827,Returning,Google,97
+1345,17-01-2025,Backpack,Fashion,45,5,225,C373,Chicago,Pending,27.42162414,New,Email,56
+1346,17-03-2025,Monitor,Electronics,200,2,400,C187,Atlanta,Shipped,48.74955402,Returning,Facebook,39
+1347,14-03-2025,Laptop,Electronics,750,1,750,C141,New York,Shipped,91.40541379,New,Facebook,112
+1348,25-03-2025,Headphones,Accessories,80,5,400,C313,Atlanta,Completed,48.74955402,VIP,Facebook,112
+1349,05-03-2025,Gaming Console,Electronics,400,3,1200,C428,Los Angeles,Cancelled,146.2486621,New,Facebook,126
+1350,01-02-2025,Tablet,Electronics,300,3,900,C332,Chicago,Completed,109.6864965,VIP,Facebook,79
+1351,21-01-2025,Jacket,Fashion,90,4,360,C347,Seattle,Pending,43.87459862,New,Google,108
+1352,13-02-2025,Monitor,Electronics,200,2,400,C260,San Francisco,Shipped,48.74955402,Loyal,Email,186
+1353,21-02-2025,Sneakers,Fashion,120,3,360,C363,Boston,Completed,43.87459862,Returning,Google,132
+1354,10-02-2025,Headphones,Accessories,80,4,320,C162,Los Angeles,Cancelled,38.99964322,New,Email,117
+1355,01-02-2025,Sneakers,Fashion,120,1,120,C125,Los Angeles,Cancelled,14.62486621,New,Facebook,176
+1356,20-03-2025,Tablet,Electronics,300,2,600,C592,Miami,Shipped,73.12433103,Returning,Facebook,52
+1357,15-03-2025,Smartwatch,Electronics,250,2,500,C490,Miami,Cancelled,60.93694252,New,Direct,38
+1358,07-03-2025,Jacket,Fashion,90,4,360,C550,Los Angeles,Cancelled,43.87459862,Returning,Instagram,43
+1359,03-01-2025,Phone,Electronics,500,4,2000,C358,Seattle,Pending,243.7477701,VIP,Instagram,188
+1360,28-01-2025,Monitor,Electronics,200,3,600,C124,New York,Shipped,73.12433103,Loyal,Google,195
+1361,05-03-2025,Monitor,Electronics,200,4,800,C246,Boston,Completed,97.49910804,Loyal,Google,25
+1362,14-01-2025,Tablet,Electronics,300,2,600,C551,Los Angeles,Shipped,73.12433103,Returning,Email,50
+1363,21-02-2025,Smartwatch,Electronics,250,1,250,C305,New York,Pending,30.46847126,Loyal,Direct,36
+1364,16-02-2025,Gaming Console,Electronics,400,3,1200,C137,Houston,Cancelled,146.2486621,Returning,Email,116
+1365,12-03-2025,Backpack,Fashion,45,5,225,C448,Atlanta,Completed,27.42162414,Loyal,Direct,161
+1366,17-01-2025,Phone,Electronics,500,4,2000,C291,San Francisco,Shipped,243.7477701,New,Instagram,133
+1367,19-01-2025,Headphones,Accessories,80,5,400,C360,Houston,Completed,48.74955402,New,Instagram,155
+1368,06-01-2025,Laptop,Electronics,750,2,1500,C465,San Francisco,Cancelled,182.8108276,Loyal,Direct,183
+1369,08-03-2025,Jacket,Fashion,90,2,180,C410,Boston,Pending,21.93729931,VIP,Email,122
+1370,11-02-2025,Monitor,Electronics,200,3,600,C183,Houston,Shipped,73.12433103,Loyal,Google,56
+1371,17-03-2025,Smartwatch,Electronics,250,5,1250,C524,Boston,Cancelled,152.3423563,New,Direct,166
+1372,01-04-2025,Monitor,Electronics,200,3,600,C343,New York,Shipped,73.12433103,Loyal,Direct,107
+1373,12-02-2025,Phone,Electronics,500,4,2000,C398,Los Angeles,Completed,243.7477701,New,Direct,101
+1374,18-03-2025,Jacket,Fashion,90,3,270,C595,Atlanta,Pending,32.90594896,VIP,Email,166
+1375,07-01-2025,Monitor,Electronics,200,4,800,C187,Boston,Cancelled,97.49910804,VIP,Google,17
+1376,19-01-2025,Headphones,Accessories,80,1,80,C393,Chicago,Pending,9.749910804,Loyal,Email,185
+1377,03-01-2025,Jacket,Fashion,90,3,270,C314,Miami,Cancelled,32.90594896,New,Facebook,196
+1378,30-03-2025,Headphones,Accessories,80,4,320,C356,Atlanta,Cancelled,38.99964322,VIP,Facebook,43
+1379,08-01-2025,Sneakers,Fashion,120,5,600,C206,Boston,Shipped,73.12433103,Returning,Direct,133
+1380,26-03-2025,Jacket,Fashion,90,5,450,C292,San Francisco,Pending,54.84324827,Loyal,Direct,134
+1381,28-02-2025,Gaming Console,Electronics,400,3,1200,C379,San Francisco,Shipped,146.2486621,Returning,Direct,38
+1382,20-03-2025,Jacket,Fashion,90,2,180,C590,Dallas,Shipped,21.93729931,Loyal,Google,115
+1383,13-03-2025,Backpack,Fashion,45,2,90,C582,Los Angeles,Shipped,10.96864965,New,Google,122
+1384,01-04-2025,Headphones,Accessories,80,4,320,C262,Seattle,Shipped,38.99964322,New,Direct,21
+1385,13-03-2025,Backpack,Fashion,45,3,135,C162,Atlanta,Cancelled,16.45297448,Returning,Google,26
+1386,20-02-2025,Smartwatch,Electronics,250,2,500,C248,New York,Shipped,60.93694252,New,Instagram,76
+1387,11-01-2025,Smartwatch,Electronics,250,4,1000,C435,Los Angeles,Cancelled,121.873885,New,Direct,177
+1388,28-01-2025,Headphones,Accessories,80,5,400,C238,Boston,Shipped,48.74955402,New,Instagram,90
+1389,18-01-2025,Phone,Electronics,500,5,2500,C479,Atlanta,Pending,304.6847126,Returning,Email,13
+1390,01-02-2025,Laptop,Electronics,750,5,3750,C215,Dallas,Completed,457.0270689,New,Instagram,190
+1391,13-01-2025,Tablet,Electronics,300,3,900,C467,Seattle,Completed,109.6864965,VIP,Email,183
+1392,29-03-2025,Sneakers,Fashion,120,1,120,C593,Boston,Pending,14.62486621,Loyal,Email,144
+1393,22-02-2025,Jacket,Fashion,90,4,360,C433,Dallas,Shipped,43.87459862,VIP,Direct,200
+1394,11-02-2025,Backpack,Fashion,45,1,45,C564,Chicago,Pending,5.484324827,Returning,Direct,157
+1395,10-03-2025,Laptop,Electronics,750,2,1500,C313,Miami,Completed,182.8108276,Returning,Email,195
+1396,20-02-2025,Jacket,Fashion,90,2,180,C579,Los Angeles,Completed,21.93729931,New,Google,154
+1397,02-01-2025,Backpack,Fashion,45,5,225,C408,Chicago,Shipped,27.42162414,VIP,Facebook,67
+1398,06-02-2025,Jacket,Fashion,90,5,450,C368,Seattle,Pending,54.84324827,Returning,Instagram,181
+1399,06-03-2025,Jacket,Fashion,90,3,270,C198,Chicago,Shipped,32.90594896,Loyal,Email,96
+1400,21-01-2025,Jacket,Fashion,90,3,270,C467,Miami,Completed,32.90594896,Returning,Facebook,142
+1401,13-02-2025,Backpack,Fashion,45,5,225,C445,Dallas,Pending,27.42162414,VIP,Direct,143
+1402,20-03-2025,Tablet,Electronics,300,4,1200,C363,San Francisco,Completed,146.2486621,Loyal,Direct,186
+1403,21-02-2025,Phone,Electronics,500,2,1000,C171,Seattle,Shipped,121.873885,Loyal,Email,189
+1404,01-02-2025,Laptop,Electronics,750,3,2250,C296,Dallas,Cancelled,274.2162414,New,Google,168
+1405,04-02-2025,Smartwatch,Electronics,250,3,750,C398,Atlanta,Completed,91.40541379,Loyal,Email,34
+1406,03-02-2025,Smartwatch,Electronics,250,2,500,C131,Chicago,Cancelled,60.93694252,New,Instagram,120
+1407,09-02-2025,Sneakers,Fashion,120,4,480,C451,Boston,Shipped,58.49946482,New,Facebook,179
+1408,30-03-2025,Phone,Electronics,500,3,1500,C288,Atlanta,Pending,182.8108276,Returning,Google,196
+1409,29-01-2025,Sneakers,Fashion,120,4,480,C178,Seattle,Shipped,58.49946482,Returning,Email,73
+1410,23-02-2025,Gaming Console,Electronics,400,4,1600,C487,Boston,Pending,194.9982161,New,Instagram,133
+1411,01-02-2025,Monitor,Electronics,200,1,200,C369,Seattle,Shipped,24.37477701,VIP,Instagram,98
+1412,10-01-2025,Monitor,Electronics,200,1,200,C131,Boston,Pending,24.37477701,New,Google,179
+1413,15-03-2025,Gaming Console,Electronics,400,2,800,C184,San Francisco,Cancelled,97.49910804,VIP,Instagram,183
+1414,15-01-2025,Headphones,Accessories,80,5,400,C350,Chicago,Cancelled,48.74955402,Loyal,Instagram,174
+1415,08-01-2025,Jacket,Fashion,90,2,180,C362,Houston,Cancelled,21.93729931,Loyal,Instagram,108
+1416,14-03-2025,Laptop,Electronics,750,5,3750,C336,Los Angeles,Completed,457.0270689,Loyal,Instagram,48
+1417,20-02-2025,Backpack,Fashion,45,1,45,C481,Dallas,Completed,5.484324827,New,Email,152
+1418,06-01-2025,Tablet,Electronics,300,3,900,C458,Chicago,Completed,109.6864965,VIP,Google,166
+1419,09-01-2025,Jacket,Fashion,90,1,90,C246,Houston,Pending,10.96864965,New,Facebook,23
+1420,18-01-2025,Tablet,Electronics,300,3,900,C556,Houston,Cancelled,109.6864965,Loyal,Facebook,12
+1421,18-02-2025,Tablet,Electronics,300,1,300,C449,Boston,Pending,36.56216551,Returning,Instagram,174
+1422,25-03-2025,Smartwatch,Electronics,250,1,250,C191,Boston,Cancelled,30.46847126,Loyal,Email,50
+1423,09-03-2025,Sneakers,Fashion,120,2,240,C527,New York,Completed,29.24973241,Loyal,Instagram,139
+1424,08-02-2025,Jacket,Fashion,90,5,450,C317,Boston,Cancelled,54.84324827,Returning,Instagram,130
+1425,30-01-2025,Headphones,Accessories,80,4,320,C277,Miami,Shipped,38.99964322,VIP,Email,136
+1426,25-01-2025,Phone,Electronics,500,1,500,C514,Houston,Completed,60.93694252,Loyal,Direct,52
+1427,31-01-2025,Headphones,Accessories,80,1,80,C151,Atlanta,Completed,9.749910804,VIP,Google,29
+1428,27-02-2025,Monitor,Electronics,200,1,200,C225,New York,Cancelled,24.37477701,Returning,Facebook,135
+1429,26-02-2025,Headphones,Accessories,80,5,400,C211,New York,Pending,48.74955402,Returning,Email,92
+1430,06-03-2025,Backpack,Fashion,45,2,90,C517,Atlanta,Shipped,10.96864965,Returning,Facebook,71
+1431,15-03-2025,Monitor,Electronics,200,3,600,C221,Los Angeles,Pending,73.12433103,New,Email,94
+1432,26-03-2025,Gaming Console,Electronics,400,2,800,C311,Los Angeles,Shipped,97.49910804,VIP,Email,81
+1433,08-01-2025,Gaming Console,Electronics,400,5,2000,C550,Miami,Cancelled,243.7477701,New,Direct,22
+1434,13-03-2025,Jacket,Fashion,90,1,90,C597,San Francisco,Cancelled,10.96864965,Returning,Instagram,139
+1435,09-03-2025,Smartwatch,Electronics,250,4,1000,C309,Miami,Shipped,121.873885,Loyal,Google,67
+1436,18-02-2025,Sneakers,Fashion,120,5,600,C342,Dallas,Pending,73.12433103,New,Direct,150
+1437,08-02-2025,Sneakers,Fashion,120,4,480,C568,New York,Cancelled,58.49946482,Loyal,Facebook,174
+1438,23-02-2025,Gaming Console,Electronics,400,5,2000,C168,Houston,Pending,243.7477701,New,Google,106
+1439,02-02-2025,Headphones,Accessories,80,3,240,C431,Chicago,Cancelled,29.24973241,VIP,Instagram,113
+1440,17-02-2025,Phone,Electronics,500,5,2500,C470,Dallas,Completed,304.6847126,Loyal,Direct,70
+1441,04-02-2025,Tablet,Electronics,300,5,1500,C408,New York,Completed,182.8108276,New,Email,30
+1442,25-01-2025,Monitor,Electronics,200,5,1000,C211,Seattle,Pending,121.873885,Returning,Facebook,127
+1443,12-02-2025,Backpack,Fashion,45,1,45,C208,Dallas,Completed,5.484324827,Returning,Direct,123
+1444,03-03-2025,Headphones,Accessories,80,5,400,C460,Dallas,Cancelled,48.74955402,VIP,Direct,156
+1445,31-01-2025,Gaming Console,Electronics,400,3,1200,C497,Los Angeles,Cancelled,146.2486621,VIP,Google,124
+1446,01-03-2025,Gaming Console,Electronics,400,3,1200,C257,Los Angeles,Shipped,146.2486621,New,Facebook,32
+1447,07-03-2025,Jacket,Fashion,90,4,360,C150,Seattle,Shipped,43.87459862,Returning,Facebook,137
+1448,27-01-2025,Smartwatch,Electronics,250,3,750,C311,New York,Pending,91.40541379,Loyal,Facebook,124
+1449,19-01-2025,Laptop,Electronics,750,3,2250,C383,Atlanta,Cancelled,274.2162414,New,Google,90
+1450,07-02-2025,Sneakers,Fashion,120,2,240,C268,Dallas,Cancelled,29.24973241,New,Facebook,40
+1451,14-03-2025,Headphones,Accessories,80,4,320,C381,San Francisco,Shipped,38.99964322,Returning,Google,137
+1452,04-03-2025,Jacket,Fashion,90,4,360,C186,San Francisco,Pending,43.87459862,VIP,Email,200
+1453,18-01-2025,Gaming Console,Electronics,400,4,1600,C194,Boston,Completed,194.9982161,Loyal,Google,177
+1454,09-03-2025,Laptop,Electronics,750,1,750,C583,New York,Completed,91.40541379,VIP,Instagram,14
+1455,22-02-2025,Sneakers,Fashion,120,2,240,C134,Miami,Completed,29.24973241,New,Facebook,36
+1456,28-01-2025,Gaming Console,Electronics,400,4,1600,C291,New York,Cancelled,194.9982161,New,Instagram,113
+1457,26-03-2025,Jacket,Fashion,90,1,90,C103,Boston,Cancelled,10.96864965,Returning,Instagram,115
+1458,02-01-2025,Laptop,Electronics,750,5,3750,C469,Los Angeles,Shipped,457.0270689,VIP,Email,19
+1459,03-01-2025,Gaming Console,Electronics,400,4,1600,C512,Miami,Completed,194.9982161,New,Direct,152
+1460,13-01-2025,Gaming Console,Electronics,400,2,800,C223,Dallas,Shipped,97.49910804,New,Email,150
+1461,15-02-2025,Backpack,Fashion,45,4,180,C140,San Francisco,Cancelled,21.93729931,VIP,Google,10
+1462,28-02-2025,Monitor,Electronics,200,2,400,C456,Dallas,Shipped,48.74955402,Returning,Google,33
+1463,29-03-2025,Phone,Electronics,500,1,500,C147,Houston,Cancelled,60.93694252,Returning,Facebook,164
+1464,18-02-2025,Gaming Console,Electronics,400,4,1600,C128,New York,Pending,194.9982161,Loyal,Instagram,168
+1465,11-01-2025,Jacket,Fashion,90,4,360,C430,San Francisco,Completed,43.87459862,Loyal,Email,173
+1466,09-03-2025,Laptop,Electronics,750,2,1500,C208,Atlanta,Cancelled,182.8108276,Loyal,Direct,87
+1467,04-02-2025,Laptop,Electronics,750,1,750,C450,Los Angeles,Completed,91.40541379,VIP,Email,140
+1468,23-01-2025,Smartwatch,Electronics,250,1,250,C592,Dallas,Pending,30.46847126,Loyal,Facebook,153
+1469,20-02-2025,Phone,Electronics,500,3,1500,C183,Atlanta,Pending,182.8108276,Loyal,Email,62
+1470,14-03-2025,Tablet,Electronics,300,5,1500,C269,Houston,Pending,182.8108276,VIP,Direct,177
+1471,30-03-2025,Phone,Electronics,500,5,2500,C481,San Francisco,Completed,304.6847126,Loyal,Direct,181
+1472,13-01-2025,Tablet,Electronics,300,2,600,C529,Chicago,Shipped,73.12433103,Returning,Instagram,126
+1473,19-03-2025,Monitor,Electronics,200,5,1000,C303,San Francisco,Completed,121.873885,New,Instagram,97
+1474,23-03-2025,Backpack,Fashion,45,4,180,C351,Dallas,Shipped,21.93729931,Returning,Facebook,103
+1475,12-03-2025,Tablet,Electronics,300,4,1200,C195,Atlanta,Cancelled,146.2486621,Returning,Instagram,23
+1476,11-01-2025,Monitor,Electronics,200,3,600,C508,Dallas,Completed,73.12433103,New,Google,67
+1477,11-01-2025,Backpack,Fashion,45,2,90,C294,Miami,Cancelled,10.96864965,Returning,Instagram,126
+1478,10-02-2025,Smartwatch,Electronics,250,1,250,C146,New York,Shipped,30.46847126,New,Google,94
+1479,26-02-2025,Smartwatch,Electronics,250,3,750,C152,Miami,Completed,91.40541379,Returning,Email,153
+1480,24-01-2025,Tablet,Electronics,300,4,1200,C385,Boston,Cancelled,146.2486621,VIP,Google,168
+1481,14-01-2025,Laptop,Electronics,750,1,750,C281,Boston,Completed,91.40541379,VIP,Facebook,163
+1482,18-03-2025,Monitor,Electronics,200,3,600,C542,Houston,Completed,73.12433103,Loyal,Direct,131
+1483,07-02-2025,Tablet,Electronics,300,4,1200,C498,Chicago,Pending,146.2486621,VIP,Facebook,193
+1484,15-03-2025,Gaming Console,Electronics,400,2,800,C450,Houston,Pending,97.49910804,New,Facebook,178
+1485,18-01-2025,Backpack,Fashion,45,3,135,C237,Seattle,Pending,16.45297448,Loyal,Facebook,103
+1486,09-01-2025,Sneakers,Fashion,120,4,480,C241,Houston,Shipped,58.49946482,Returning,Facebook,193
+1487,03-03-2025,Phone,Electronics,500,3,1500,C228,Dallas,Cancelled,182.8108276,VIP,Instagram,125
+1488,18-03-2025,Monitor,Electronics,200,2,400,C334,Chicago,Pending,48.74955402,Loyal,Email,39
+1489,08-02-2025,Laptop,Electronics,750,4,3000,C270,Atlanta,Cancelled,365.6216551,VIP,Direct,34
+1490,12-02-2025,Jacket,Fashion,90,3,270,C320,Atlanta,Pending,32.90594896,Loyal,Google,178
+1491,08-02-2025,Smartwatch,Electronics,250,5,1250,C585,Dallas,Cancelled,152.3423563,New,Google,66
+1492,10-02-2025,Sneakers,Fashion,120,4,480,C595,San Francisco,Shipped,58.49946482,New,Email,10
+1493,30-03-2025,Jacket,Fashion,90,5,450,C500,Dallas,Shipped,54.84324827,Returning,Facebook,97
+1494,18-02-2025,Backpack,Fashion,45,4,180,C286,Chicago,Pending,21.93729931,Loyal,Facebook,100
+1495,17-03-2025,Gaming Console,Electronics,400,2,800,C449,Boston,Completed,97.49910804,New,Direct,172
+1496,01-03-2025,Headphones,Accessories,80,4,320,C508,Los Angeles,Completed,38.99964322,Returning,Google,84
+1497,22-02-2025,Jacket,Fashion,90,2,180,C424,Los Angeles,Pending,21.93729931,Loyal,Facebook,150
+1498,02-02-2025,Sneakers,Fashion,120,4,480,C504,Houston,Completed,58.49946482,Returning,Instagram,143
+1499,27-02-2025,Monitor,Electronics,200,4,800,C398,Houston,Cancelled,97.49910804,New,Direct,105
+1500,11-03-2025,Laptop,Electronics,750,3,2250,C459,Boston,Completed,274.2162414,Returning,Instagram,189
