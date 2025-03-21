@@ -1,0 +1,547 @@
+Here are simplified R codes for the first document using base R and `ggplot2` for easier visualization.
+
+---
+
+### **1. Discrete Numeric Data (Simple Visualization)**
+```r
+library(ggplot2)
+
+# Data
+data_numeric <- data.frame(ID = 1:5, Score = c(85, 92, 78, 88, 90))
+
+# Histogram
+hist(data_numeric$Score, col = "blue", main = "Histogram of Scores", xlab = "Score", ylab = "Frequency")
+
+# Box plot
+boxplot(data_numeric$Score, col = "lightblue", main = "Boxplot of Scores", ylab = "Score")
+
+# Bar chart of score ranges
+data_numeric$Range <- cut(data_numeric$Score, breaks = c(0, 50, 100), labels = c("0-50", "51-100"))
+barplot(table(data_numeric$Range), col = "orange", main = "Score Ranges", xlab = "Range", ylab = "Count")
+
+# Density plot
+plot(density(data_numeric$Score), col = "green", main = "Density Plot of Scores", xlab = "Score")
+
+# Violin plot (using ggplot2)
+ggplot(data_numeric, aes(x = "", y = Score)) + geom_violin(fill = "purple") + theme_minimal()
+```
+
+---
+
+### **2. Text Data (Word Frequencies)**
+```r
+library(wordcloud)
+
+# Data
+data_text <- data.frame(Word = c("Apple", "Orange", "Banana", "Grape", "Cherry"),
+                        Frequency = c(15, 10, 8, 12, 5))
+
+# Word cloud
+wordcloud(data_text$Word, data_text$Frequency, colors = brewer.pal(8, "Dark2"))
+
+# Bar plot
+barplot(data_text$Frequency, names.arg = data_text$Word, col = "blue", main = "Word Frequencies", xlab = "Words", ylab = "Frequency")
+
+# Pie chart
+pie(data_text$Frequency, labels = data_text$Word, col = rainbow(length(data_text$Word)), main = "Word Distribution")
+```
+
+---
+
+### **3. Binary Data**
+```r
+# Data
+data_binary <- data.frame(ID = 1:5, Variable1 = c(0,1,0,1,0), Variable2 = c(1,0,1,1,0), Variable3 = c(0,1,1,0,0))
+
+# Bar plot for Variable1
+barplot(table(data_binary$Variable1), col = "blue", main = "Variable1 Counts", xlab = "Value", ylab = "Count")
+
+# Pie chart for Variable2
+pie(table(data_binary$Variable2), labels = c("0", "1"), col = c("red", "green"), main = "Variable2 Proportions")
+```
+
+---
+
+### **4. Ordinal Data**
+```r
+# Data
+data_ordinal <- data.frame(ID = 1:5, Rating = factor(c("Good", "Excellent", "Fair", "Poor", "Good"), 
+                                                     levels = c("Poor", "Fair", "Good", "Excellent"), ordered = TRUE))
+
+# Bar plot
+barplot(table(data_ordinal$Rating), col = "cyan", main = "Rating Counts", xlab = "Rating", ylab = "Count")
+
+# Pie chart
+pie(table(data_ordinal$Rating), col = rainbow(4), main = "Rating Distribution")
+```
+
+---
+
+### **5. Hierarchical Data**
+```r
+library(treemap)
+
+# Data
+data_hierarchical <- data.frame(Parent = c("A", "A", "B", "B", "C"), 
+                                Sub = c("A1", "A2", "B1", "B2", "C1"), 
+                                Value = c(10, 15, 20, 25, 12))
+
+# Treemap
+treemap(data_hierarchical, index = c("Parent", "Sub"), vSize = "Value", type = "index", title = "Hierarchical Data")
+```
+
+---
+
+### **Why is this simpler?**
+✅ Uses `hist()`, `boxplot()`, `barplot()`, and `pie()` for easy visualization.  
+✅ Minimal dependencies (uses `wordcloud` and `treemap` for specific tasks).  
+✅ Easy to understand and modify.  
+
+Let me know if you need any modifications! 🚀
+. Discrete Numeric Data
+r
+Copy code
+library(ggplot2)
+
+data_numeric <- data.frame(ID = 1:5, Score = c(85, 92, 78, 88, 90))
+
+# Histogram
+ggplot(data_numeric, aes(x = Score)) + 
+  geom_histogram(binwidth = 5, fill = "blue", color = "black")
+
+# Box plot
+ggplot(data_numeric, aes(y = Score)) + 
+  geom_boxplot(fill = "lightblue")
+
+# Bar chart of score ranges
+data_numeric$Range <- cut(data_numeric$Score, breaks = c(0, 50, 100), labels = c("0-50", "51-100"))
+ggplot(data_numeric, aes(x = Range)) + 
+  geom_bar(fill = "orange")
+
+# Density plot
+ggplot(data_numeric, aes(x = Score)) + 
+  geom_density(fill = "green", alpha = 0.5)
+
+# Violin plot
+ggplot(data_numeric, aes(x = "", y = Score)) + 
+  geom_violin(fill = "purple")
+2. Text Data (Word Frequencies)
+r
+Copy code
+library(ggplot2)
+library(wordcloud)
+
+data_text <- data.frame(Word = c("Apple", "Orange", "Banana", "Grape", "Cherry"),
+                        Frequency = c(15, 10, 8, 12, 5))
+
+# Word cloud
+wordcloud(data_text$Word, data_text$Frequency, colors = brewer.pal(8, "Dark2"))
+
+# Bar plot
+ggplot(data_text, aes(x = Word, y = Frequency)) + 
+  geom_bar(stat = "identity", fill = "blue")
+
+# Stacked bar chart
+ggplot(data_text, aes(x = "Words", y = Frequency, fill = Word)) + 
+  geom_bar(stat = "identity")
+
+# Pie chart
+ggplot(data_text, aes(x = "", y = Frequency, fill = Word)) + 
+  geom_bar(stat = "identity") + coord_polar("y", start = 0)
+
+# Histogram of Frequency
+ggplot(data_text, aes(x = Frequency)) + 
+  geom_histogram(binwidth = 2, fill = "red")
+3. Binary Data
+r
+Copy code
+library(ggplot2)
+library(reshape2)
+
+data_binary <- data.frame(ID = 1:5, Variable1 = c(0,1,0,1,0), Variable2 = c(1,0,1,1,0), Variable3 = c(0,1,1,0,0))
+
+# Bar plot for Variable1
+ggplot(data_binary, aes(x = factor(Variable1))) + 
+  geom_bar(fill = "blue")
+
+# Stacked bar plot
+ggplot(melt(data_binary, id.vars = "ID"), aes(x = variable, fill = factor(value))) + 
+  geom_bar()
+
+# Pie chart for Variable2
+ggplot(data_binary, aes(x = "", fill = factor(Variable2))) + 
+  geom_bar(stat = "count") + coord_polar("y", start = 0)
+
+# Mosaic plot
+mosaicplot(table(data_binary$Variable1, data_binary$Variable2), color = TRUE)
+
+# Frequency of Variable1 and Variable2
+ggplot(data_binary, aes(x = interaction(Variable1, Variable2))) + 
+  geom_bar(fill = "green")
+4. Ordinal Data
+r
+Copy code
+library(ggplot2)
+
+data_ordinal <- data.frame(ID = 1:5, Rating = factor(c("Good", "Excellent", "Fair", "Poor", "Good"), 
+                                                     levels = c("Poor", "Fair", "Good", "Excellent"), ordered = TRUE))
+
+# Bar plot
+ggplot(data_ordinal, aes(x = Rating)) + 
+  geom_bar(fill = "cyan")
+
+# Stacked bar plot
+ggplot(data_ordinal, aes(x = factor(ID), fill = Rating)) + 
+  geom_bar()
+
+# Pie chart
+ggplot(data_ordinal, aes(x = "", fill = Rating)) + 
+  geom_bar(stat = "count") + coord_polar("y", start = 0)
+
+# Lollipop plot
+ggplot(data_ordinal, aes(x = Rating, y = ID)) + 
+  geom_point() + geom_segment(aes(xend = Rating, yend = 0))
+
+# Frequency bar chart
+ggplot(data_ordinal, aes(x = Rating)) + 
+  geom_bar(fill = "red")
+5. Hierarchical Data
+r
+Copy code
+library(ggplot2)
+library(treemap)
+library(igraph)
+library(ggraph)
+library(dendextend)
+
+data_hierarchical <- data.frame(Parent = c("A", "A", "B", "B", "C"), 
+                                Sub = c("A1", "A2", "B1", "B2", "C1"), 
+                                Value = c(10, 15, 20, 25, 12))
+
+# Dendrogram
+hc <- hclust(dist(data_hierarchical$Value))
+plot(as.dendrogram(hc), main = "Dendrogram")
+
+# Treemap
+treemap(data_hierarchical, index = c("Parent", "Sub"), vSize = "Value", type = "index")
+
+# Sunburst chart
+ggplot(data_hierarchical, aes(x = Parent, y = Value, fill = Sub)) + 
+  geom_bar(stat = "identity")
+
+# Nested bar plot
+ggplot(data_hierarchical, aes(x = Parent, y = Value, fill = Sub)) + 
+  geom_bar(stat = "identity", position = "dodge")
+
+# Hierarchical edge bundling
+edges <- data.frame(from = data_hierarchical$Parent, to = data_hierarchical$Sub)
+graph <- graph_from_data_frame(edges)
+ggraph(graph, layout = "dendrogram") + 
+  geom_edge_diagonal() + geom_node_point() + 
+  geom_node_text(aes(label = name))
+Each of these scripts can be run separately depending on the data type you are working with. Let me know if you need modifications! 🚀
+
+
+
+
+
+You said:
+Day 3 - Programs(23.07.24).docx
+Document
+give r program code individually 
+ChatGPT said:
+Here are the R programs for each dataset individually:
+
+1. Weather Data Visualization
+r
+Copy code
+library(ggplot2)
+library(plotly)
+
+# Data
+weather_data <- data.frame(
+  Date = as.Date(c("2023-01-01", "2023-01-02", "2023-01-03", "2023-01-04", "2023-01-05")),
+  Temperature = c(10, 12, 8, 15, 14),
+  Humidity = c(75, 70, 80, 65, 72),
+  WindSpeed = c(15, 12, 18, 20, 16)
+)
+
+# Scatter plot (Temperature vs Humidity & Wind Speed)
+ggplot(weather_data, aes(x = Humidity, y = Temperature, color = WindSpeed)) +
+  geom_point(size = 4) + theme_minimal()
+
+# 3D Scatter Plot
+plot_ly(weather_data, x = ~Humidity, y = ~WindSpeed, z = ~Temperature, type = "scatter3d", mode = "markers")
+
+# 3D Surface Plot
+plot_ly(weather_data, x = ~Humidity, y = ~WindSpeed, z = ~Temperature, type = "surface")
+2. Financial Market Data Visualization
+r
+Copy code
+library(ggplot2)
+library(plotly)
+
+# Data
+finance_data <- data.frame(
+  Date = as.Date(c("2023-01-01", "2023-01-02", "2023-01-03", "2023-01-04", "2023-01-05")),
+  StockPrice = c(100, 102, 98, 105, 108),
+  VolumeTraded = c(2.5, 3.0, 2.2, 2.8, 3.5),
+  MarketCap = c(500, 510, 490, 525, 540)
+)
+
+# 3D Scatter Plot
+plot_ly(finance_data, x = ~VolumeTraded, y = ~MarketCap, z = ~StockPrice, type = "scatter3d", mode = "markers")
+
+# 3D Surface Plot
+plot_ly(finance_data, x = ~StockPrice, y = ~VolumeTraded, z = ~MarketCap, type = "surface")
+3. Consumer Survey Data Visualization
+r
+Copy code
+library(ggplot2)
+library(plotly)
+
+# Data
+consumer_data <- data.frame(
+  Product = c("A", "B", "C", "D", "E"),
+  Price = c(50, 70, 60, 45, 55),
+  Rating = c(4.2, 3.8, 4.0, 4.5, 3.9),
+  AgeGroup = factor(c("25-35", "35-45", "18-25", "45-55", "25-35"))
+)
+
+# 3D Scatter Plot
+plot_ly(consumer_data, x = ~Price, y = ~Rating, z = ~as.numeric(AgeGroup), type = "scatter3d", mode = "markers")
+
+# 3D Surface Plot
+plot_ly(consumer_data, x = ~Price, y = ~as.numeric(AgeGroup), z = ~Rating, type = "surface")
+4. Environmental Data Visualization
+r
+Copy code
+library(ggplot2)
+library(plotly)
+
+# Data
+env_data <- data.frame(
+  Location = c("A", "B", "C", "D", "E"),
+  Temperature = c(15, 20, 18, 12, 17),
+  Humidity = c(65, 70, 68, 60, 72),
+  CO2Levels = c(400, 450, 420, 380, 430)
+)
+
+# 3D Scatter Plot
+plot_ly(env_data, x = ~Temperature, y = ~Humidity, z = ~CO2Levels, type = "scatter3d", mode = "markers")
+
+# 3D Surface Plot
+plot_ly(env_data, x = ~Temperature, y = ~Humidity, z = ~CO2Levels, type = "surface")
+5. Academic Performance Data Visualization
+r
+Copy code
+library(ggplot2)
+library(plotly)
+
+# Data
+student_data <- data.frame(
+  Student = c("A", "B", "C", "D", "E"),
+  MathScore = c(85, 72, 90, 78, 88),
+  ScienceScore = c(78, 85, 80, 75, 82),
+  Attendance = c(95, 92, 98, 85, 93)
+)
+
+# 3D Scatter Plot
+plot_ly(student_data, x = ~MathScore, y = ~ScienceScore, z = ~Attendance, type = "scatter3d", mode = "markers")
+
+# 3D Surface Plot
+plot_ly(student_data, x = ~MathScore, y = ~Attendance, z = ~ScienceScore, type = "surface")
+Each of these R scripts can be run separately based on the dataset you want to analyze. Let me know if you need any modifications! 🚀
+
+
+
+
+
+You said:
+Give easy code 
+ChatGPT said:
+Here are simplified R codes for each dataset using base R and scatterplot3d for 3D plots.
+
+1. Weather Data (Simple Visualization)
+r
+Copy code
+library(scatterplot3d)
+
+# Data
+weather_data <- data.frame(
+  Date = as.Date(c("2023-01-01", "2023-01-02", "2023-01-03", "2023-01-04", "2023-01-05")),
+  Temperature = c(10, 12, 8, 15, 14),
+  Humidity = c(75, 70, 80, 65, 72),
+  WindSpeed = c(15, 12, 18, 20, 16)
+)
+
+# 3D Scatter Plot
+scatterplot3d(weather_data$Humidity, weather_data$WindSpeed, weather_data$Temperature,
+              xlab = "Humidity (%)", ylab = "Wind Speed (km/h)", zlab = "Temperature (°C)",
+              color = "blue", pch = 16)
+2. Financial Market Data (Simple 3D Plot)
+r
+Copy code
+library(scatterplot3d)
+
+# Data
+finance_data <- data.frame(
+  StockPrice = c(100, 102, 98, 105, 108),
+  VolumeTraded = c(2.5, 3.0, 2.2, 2.8, 3.5),
+  MarketCap = c(500, 510, 490, 525, 540)
+)
+
+# 3D Scatter Plot
+scatterplot3d(finance_data$VolumeTraded, finance_data$MarketCap, finance_data$StockPrice,
+              xlab = "Volume Traded", ylab = "Market Cap", zlab = "Stock Price",
+              color = "red", pch = 16)
+3. Consumer Survey Data (Simple 3D Plot)
+r
+Copy code
+library(scatterplot3d)
+
+# Data
+consumer_data <- data.frame(
+  Product = c("A", "B", "C", "D", "E"),
+  Price = c(50, 70, 60, 45, 55),
+  Rating = c(4.2, 3.8, 4.0, 4.5, 3.9),
+  AgeGroup = c(1, 2, 3, 4, 1)  # Convert age groups to numbers
+)
+
+# 3D Scatter Plot
+scatterplot3d(consumer_data$Price, consumer_data$AgeGroup, consumer_data$Rating,
+              xlab = "Price ($)", ylab = "Age Group", zlab = "Rating",
+              color = "green", pch = 16)
+4. Environmental Data (Simple 3D Plot)
+r
+Copy code
+library(scatterplot3d)
+
+# Data
+env_data <- data.frame(
+  Temperature = c(15, 20, 18, 12, 17),
+  Humidity = c(65, 70, 68, 60, 72),
+  CO2Levels = c(400, 450, 420, 380, 430)
+)
+
+# 3D Scatter Plot
+scatterplot3d(env_data$Temperature, env_data$Humidity, env_data$CO2Levels,
+              xlab = "Temperature (°C)", ylab = "Humidity (%)", zlab = "CO2 Levels",
+              color = "purple", pch = 16)
+5. Academic Performance Data (Simple 3D Plot)
+r
+Copy code
+library(scatterplot3d)
+
+# Data
+student_data <- data.frame(
+  MathScore = c(85, 72, 90, 78, 88),
+  ScienceScore = c(78, 85, 80, 75, 82),
+  Attendance = c(95, 92, 98, 85, 93)
+)
+
+# 3D Scatter Plot
+scatterplot3d(student_data$MathScore, student_data$ScienceScore, student_data$Attendance,
+              xlab = "Math Score", ylab = "Science Score", zlab = "Attendance",
+              color = "orange", pch = 16)
+Why is this simpler?
+✅ Uses only scatterplot3d (no complex libraries).
+✅ Straightforward 3D scatter plots.
+✅ Easy to read and modify.
+
+Let me know if you need any changes! 🚀
+
+
+
+
+
+You said:
+For first document also give easy code
+ChatGPT said:
+Here are simplified R codes for the first document using base R and ggplot2 for easier visualization.
+
+1. Discrete Numeric Data (Simple Visualization)
+r
+Copy code
+library(ggplot2)
+
+# Data
+data_numeric <- data.frame(ID = 1:5, Score = c(85, 92, 78, 88, 90))
+
+# Histogram
+hist(data_numeric$Score, col = "blue", main = "Histogram of Scores", xlab = "Score", ylab = "Frequency")
+
+# Box plot
+boxplot(data_numeric$Score, col = "lightblue", main = "Boxplot of Scores", ylab = "Score")
+
+# Bar chart of score ranges
+data_numeric$Range <- cut(data_numeric$Score, breaks = c(0, 50, 100), labels = c("0-50", "51-100"))
+barplot(table(data_numeric$Range), col = "orange", main = "Score Ranges", xlab = "Range", ylab = "Count")
+
+# Density plot
+plot(density(data_numeric$Score), col = "green", main = "Density Plot of Scores", xlab = "Score")
+
+# Violin plot (using ggplot2)
+ggplot(data_numeric, aes(x = "", y = Score)) + geom_violin(fill = "purple") + theme_minimal()
+2. Text Data (Word Frequencies)
+r
+Copy code
+library(wordcloud)
+
+# Data
+data_text <- data.frame(Word = c("Apple", "Orange", "Banana", "Grape", "Cherry"),
+                        Frequency = c(15, 10, 8, 12, 5))
+
+# Word cloud
+wordcloud(data_text$Word, data_text$Frequency, colors = brewer.pal(8, "Dark2"))
+
+# Bar plot
+barplot(data_text$Frequency, names.arg = data_text$Word, col = "blue", main = "Word Frequencies", xlab = "Words", ylab = "Frequency")
+
+# Pie chart
+pie(data_text$Frequency, labels = data_text$Word, col = rainbow(length(data_text$Word)), main = "Word Distribution")
+3. Binary Data
+r
+Copy code
+# Data
+data_binary <- data.frame(ID = 1:5, Variable1 = c(0,1,0,1,0), Variable2 = c(1,0,1,1,0), Variable3 = c(0,1,1,0,0))
+
+# Bar plot for Variable1
+barplot(table(data_binary$Variable1), col = "blue", main = "Variable1 Counts", xlab = "Value", ylab = "Count")
+
+# Pie chart for Variable2
+pie(table(data_binary$Variable2), labels = c("0", "1"), col = c("red", "green"), main = "Variable2 Proportions")
+4. Ordinal Data
+r
+Copy code
+# Data
+data_ordinal <- data.frame(ID = 1:5, Rating = factor(c("Good", "Excellent", "Fair", "Poor", "Good"), 
+                                                     levels = c("Poor", "Fair", "Good", "Excellent"), ordered = TRUE))
+
+# Bar plot
+barplot(table(data_ordinal$Rating), col = "cyan", main = "Rating Counts", xlab = "Rating", ylab = "Count")
+
+# Pie chart
+pie(table(data_ordinal$Rating), col = rainbow(4), main = "Rating Distribution")
+5. Hierarchical Data
+r
+Copy code
+library(treemap)
+
+# Data
+data_hierarchical <- data.frame(Parent = c("A", "A", "B", "B", "C"), 
+                                Sub = c("A1", "A2", "B1", "B2", "C1"), 
+                                Value = c(10, 15, 20, 25, 12))
+
+# Treemap
+treemap(data_hierarchical, index = c("Parent", "Sub"), vSize = "Value", type = "index", title = "Hierarchical Data")
+Why is this simpler?
+✅ Uses hist(), boxplot(), barplot(), and pie() for easy visualization.
+✅ Minimal dependencies (uses wordcloud and treemap for specific tasks).
+✅ Easy to understand and modify.
+
+Let me know if you need any modifications! 🚀
+
+
+
+
